@@ -1,0 +1,810 @@
+fileFormatVersion: 2
+guid: 34b6d0c084d4046f3898028e499ee8a1
+timeCreated: 1518067179
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Soldier Pack_0
+    21300002: Soldier Pack_1
+    21300004: Soldier Pack_2
+    21300006: Soldier Pack_3
+    21300008: Soldier Pack_4
+    21300010: Soldier Pack_5
+    21300012: Soldier Pack_6
+    21300014: Soldier Pack_7
+    21300016: Soldier Pack_8
+    21300018: Soldier Pack_9
+    21300020: Soldier Pack_10
+    21300022: Soldier Pack_11
+    21300024: Soldier Pack_12
+    21300026: Soldier Pack_13
+    21300028: Soldier Pack_14
+    21300030: Soldier Pack_15
+    21300032: Soldier Pack_16
+    21300034: Soldier Pack_17
+    21300036: Soldier Pack_18
+    21300038: Soldier Pack_19
+    21300040: Soldier Pack_20
+    21300042: Soldier Pack_21
+    21300044: Green Soldier 1
+    21300046: Soldier Pack_23
+    21300048: Soldier Pack_24
+    21300050: Soldier Pack_25
+    21300052: Soldier Pack_26
+    21300054: Soldier Pack_27
+    21300056: Soldier Pack_28
+    21300058: Soldier Pack_29
+    21300060: Soldier Pack_30
+    21300062: Soldier Pack_31
+    21300064: Green Soldier 2
+    21300066: Soldier Pack_33
+    21300068: Soldier Pack_34
+    21300070: Soldier Pack_35
+    21300072: Soldier Pack_36
+    21300074: Soldier Pack_37
+    21300076: Soldier Pack_38
+    21300078: Soldier Pack_39
+    21300080: Soldier Pack_40
+    21300082: Soldier Pack_41
+    21300084: Green Soldier 3
+    21300086: Soldier Pack_43
+    21300088: Soldier Pack_44
+    21300090: Soldier Pack_45
+    21300092: Soldier Pack_46
+    21300094: Greenboy_Walk1
+    21300096: Greenboy_Walk2
+    21300098: Greenboy_Idle
+    21300100: Soldier Pack_22
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soldier Pack_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 319
+        width: 112
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 336
+        width: 100
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 325
+        width: 115
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_3
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 323
+        width: 111
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_4
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 328
+        width: 100
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_5
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 326
+        width: 115
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_6
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 320
+        width: 111
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_7
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 323
+        width: 76
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_8
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 335
+        width: 60
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_9
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 335
+        width: 60
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_10
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 256
+        width: 118
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_11
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 256
+        width: 108
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_12
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 256
+        width: 116
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 299
+        width: 100
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_14
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 299
+        width: 115
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_15
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 311
+        width: 76
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 128
+        width: 118
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 118
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 96
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 128
+        width: 96
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_20
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 108
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_21
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 128
+        width: 108
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Greenboy_Walk1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 126
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 128
+        width: 126
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_24
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 115
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_25
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 128
+        width: 115
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_26
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 124
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_27
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 128
+        width: 124
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_28
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 115
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_29
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 128
+        width: 115
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_30
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 128
+        width: 104
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_31
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 0
+        width: 104
+        height: 103
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Greenboy_Walk2
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 113
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_33
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 128
+        width: 113
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_34
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 128
+        width: 103
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_35
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 103
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_36
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 128
+        width: 111
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_37
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 0
+        width: 111
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_38
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 0
+        width: 91
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_39
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 128
+        width: 91
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_40
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 103
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_41
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 128
+        width: 103
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Greenboy_Idle
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 128
+        width: 118
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_43
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 83
+        width: 13
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_44
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 128
+        width: 108
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_45
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 65
+        width: 11
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_46
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 128
+        width: 116
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Soldier Pack_22
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 45
+        width: 8
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
