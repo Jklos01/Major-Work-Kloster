@@ -4,36 +4,26 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour {
 
-	public float firerate = 0;
-	public float damage = 10;
-	public LayerMask notToHit;
+	public GameObject bullet;
+	public Transform spawner;
 
-	float timeToFire = 0;
-	Transform firePoint;
+	Vector3 shootdirection;
 
-	// Use this for initialization
-	void Awake () {
-		firePoint = transform.Find ("FirePoint");
-		if (firePoint == null) {
-			Debug.LogError ("No firepoint? WHAT!");
-		}
+	private void Start()
+	{
+		shootdirection = Input.mousePosition;
+		shootdirection = Camera.main.ScreenToWorldPoint(shootdirection);
+        shootdirection.z = 0.0f;
+        shootdirection = shootdirection - spawner.position;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (firerate == 0) {
-			if (Input.GetButtonDown ("Fire1")) {
-				Shot ();
-			}
-		} else {
-			if (Input.GetButton ("Fire1") && Time.time > timeToFire) {
-				timeToFire = Time.time + 1 / firerate;
-				Shot ();
-			}
+
+	private void Update()
+	{
+		if (Input.GetMouseButton(0)){
+			Debug.Log("Pressed Fire");
+			GameObject shot = Instantiate(bullet, spawner.position, Quaternion.Euler(new Vector3(0,0,0))) as GameObject;
+			shot.GetComponent<Rigidbody2D>().AddForce(shootdirection);
 		}
 	}
 
-	void Shot (){
-		
-	}
 }
