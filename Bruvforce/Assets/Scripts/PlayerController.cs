@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour {
 	public float speed = 5.0f;
@@ -12,7 +13,6 @@ public class PlayerController : MonoBehaviour {
 	public GameObject bullet;
 	GameObject tempbullet;
 
-	public CircleCollider2D groundCheck;
 
 	Rigidbody2D rigid;
 	Animator animator;
@@ -40,25 +40,35 @@ public class PlayerController : MonoBehaviour {
 		}
         
 		if (Input.GetMouseButtonDown(0)){
-			tempbullet = Instantiate(bullet, bulletspawn.position, Quaternion.identity);
-			Destroy(tempbullet, 2f);
+			if ( ! EventSystem.current.IsPointerOverGameObject())
+			{
+				tempbullet = Instantiate(bullet, bulletspawn.position, Quaternion.identity);
+				Destroy(tempbullet, 10f);
+			}
 		}
 	}
 
 
-	void OnCollisionEnter2D(Collision2D collision)
+	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		
-	    CheckIfGrounded ();
+		if(collision.tag == "Ground"){
+			canjump = true;
+		}
 	}
 
-	void CheckIfGrounded()
-	{
-		RaycastHit2D[] hits;
+	//void OnCollisionEnter2D(Collision2D collision)
+	//{
 
-		Vector2 positionToCheck = transform.position;
-		hits = Physics2D.RaycastAll(positionToCheck, new Vector2(0, -1), 0.01f);
+	//    CheckIfGrounded ();
+	//}
 
-		canjump |= hits.Length > 0;
-	}
+	//void CheckIfGrounded()
+	//{
+	//	RaycastHit2D[] hits;
+
+	//	Vector2 positionToCheck = groundCheck.transform.position;
+	//	hits = Physics2D.RaycastAll(positionToCheck, new Vector2(0, -1), 0.01f);
+
+	//	canjump |= hits.Length > 0;
+	//}
 }
