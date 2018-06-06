@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour {
 	public float speed = 5.0f;
 	public float jumpheight;
 	public bool canjump = true;
+	public float ammo = 20f;
 
+
+	public Text ammoText;
 
 	public Transform bulletspawn;
 	public GameObject bullet;
@@ -22,6 +26,8 @@ public class PlayerController : MonoBehaviour {
 		animator = this.GetComponent<Animator> ();
 		rigid = this.GetComponent<Rigidbody2D> ();
 		canjump = true;
+
+		setAmmoText();
 
 		bulletspawn = this.gameObject.transform.GetChild(1);
         
@@ -39,10 +45,12 @@ public class PlayerController : MonoBehaviour {
 			canjump = false;
 		}
         
-		if (Input.GetMouseButtonDown(0)){
+		if (Input.GetMouseButtonDown(0) && ammo >= 1){
 			if ( ! EventSystem.current.IsPointerOverGameObject())
 			{
 				tempbullet = Instantiate(bullet, bulletspawn.position, Quaternion.identity);
+				ammo--;
+				setAmmoText();
 				Destroy(tempbullet, 10f);
 			}
 		}
@@ -54,21 +62,15 @@ public class PlayerController : MonoBehaviour {
 		if(collision.tag == "Ground"){
 			canjump = true;
 		}
+
+		if(collision.tag == "Ammo"){
+			ammo += 20;
+			setAmmoText();
+			Destroy(collision.gameObject);
+		}
 	}
 
-	//void OnCollisionEnter2D(Collision2D collision)
-	//{
-
-	//    CheckIfGrounded ();
-	//}
-
-	//void CheckIfGrounded()
-	//{
-	//	RaycastHit2D[] hits;
-
-	//	Vector2 positionToCheck = groundCheck.transform.position;
-	//	hits = Physics2D.RaycastAll(positionToCheck, new Vector2(0, -1), 0.01f);
-
-	//	canjump |= hits.Length > 0;
-	//}
+	void setAmmoText(){
+		ammoText.text = "Ammo: " + ammo.ToString();
+	}
 }

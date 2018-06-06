@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BulletSpawn
   - Ground
+  - Ammo
   layers:
   - Default
   - TransparentFX
