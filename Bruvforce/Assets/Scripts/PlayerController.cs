@@ -8,8 +8,15 @@ public class PlayerController : MonoBehaviour {
 	public float speed = 5.0f;
 	public float jumpheight;
 	public bool canjump = true;
-	public float ammo = 20f;
 
+
+	public int ammo = 20;
+	public int health = 3;
+
+
+	public GameObject life1;
+	public GameObject life2;
+	public GameObject life3;
 
 	public Text ammoText;
 
@@ -19,11 +26,9 @@ public class PlayerController : MonoBehaviour {
 
 
 	Rigidbody2D rigid;
-	Animator animator;
 
 	// Use this for initialization
 	void Start () {
-		animator = this.GetComponent<Animator> ();
 		rigid = this.GetComponent<Rigidbody2D> ();
 		canjump = true;
 
@@ -56,8 +61,35 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
+	void checkHealth(){
+		if (health == 2){
+			life3.SetActive(false);
+		}
+		if (health == 1)
+        {
+			life2.SetActive(false);
+        }
+		if (health == 0)
+        {
+            life1.SetActive(false);
+			dead();
+        }
+	}
 
-	private void OnTriggerEnter2D(Collider2D collision)
+	void dead(){
+		
+	}
+
+	void OnCollisionEnter2D(Collision2D collision){
+		if (collision.gameObject.tag == "Enemy")
+	       {
+	           health -= 1;
+	           Debug.Log("Lost some health");
+	           checkHealth();
+	       }
+	}
+   
+	void OnTriggerEnter2D(Collider2D collision)
 	{
 		if(collision.tag == "Ground"){
 			canjump = true;
