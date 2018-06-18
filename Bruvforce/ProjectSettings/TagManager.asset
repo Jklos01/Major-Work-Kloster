@@ -8,6 +8,9 @@ TagManager:
   - Ground
   - Ammo
   - Enemy
+  - BackGround
+  - bullet
+  - deathbox
   layers:
   - Default
   - TransparentFX

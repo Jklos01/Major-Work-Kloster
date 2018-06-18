@@ -21,13 +21,10 @@ public class BulletScript : MonoBehaviour {
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (collision.gameObject.tag != "Player")
+		if (collision.gameObject.tag != "Player" && collision.gameObject.tag != "bullet")
 		{
 			Destroy(this.gameObject);
 		}
-
-		if (collision.gameObject.tag == "Enemy"){
-			
-		}
+        
 	}
 }
