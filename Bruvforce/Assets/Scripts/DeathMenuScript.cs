@@ -11,11 +11,6 @@ public class DeathMenuScript : MonoBehaviour {
 	void Start () {
 		DeathUI.SetActive(false);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	public void retry(){
 		DeathUI.SetActive(false);
