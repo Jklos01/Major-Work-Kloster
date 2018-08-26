@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{59DA3140-DACF-5CBB-2FE5-DBB33F230083}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyScript.cs">
     <Files>
       <File FileName="Assets/Scripts/PauseMenu.cs" Line="5" Column="1" />
       <File FileName="Assets/Scripts/PlayerController.cs" Line="128" Column="33" />

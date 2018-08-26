@@ -11,6 +11,8 @@ TagManager:
   - BackGround
   - bullet
   - deathbox
+  - enemybullet
+  - flag
   layers:
   - Default
   - TransparentFX
